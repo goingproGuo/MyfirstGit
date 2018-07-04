@@ -22,7 +22,7 @@ public class SolrTest {
         SolrInputDocument document = new SolrInputDocument();
 
         document.addField("id", "c001");
-        document.addField("product_name", "美女与野兽");
+        document.addField("product_name", "美女与野兽的恋爱");
 
         SolrServer.add(document);
 
